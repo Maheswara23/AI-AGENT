@@ -1,6 +1,6 @@
 # AI-AGENT
 
-# 🤖 Jarvis – Voice Assistant for Mobile Automation
+# 🤖 AI – Voice Assistant for Mobile Automation
 
 **Jarvis** is an always-on voice assistant built in Python that listens for the wake word **"jarvis"** and lets you automate your Android device over ADB.  
 You can open apps, play YouTube videos, or send WhatsApp messages — all through natural voice commands.
