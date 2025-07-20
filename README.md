@@ -44,6 +44,20 @@ You can open apps, play YouTube videos, or send WhatsApp messages — all throug
 
 ---
 
+**🧠 Architecture Diagram**
+
+```mermaid
+flowchart TD
+    A[User says jarvis] --> B(listener.py)
+    B --> C(main.py)
+    C --> D{Connect device?}
+    D -- Yes --> E(allcommand)
+    E --> F[Perform action]
+    D -- No --> G[Exit]
+```
+
+---
+
 ## ⚙️ How It Works
 **Start listener:**
 
